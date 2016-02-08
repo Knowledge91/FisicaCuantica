@@ -412,3 +412,78 @@ $$
 (a^\dagger)}
 $$
 \end{enumerate}
+
+\fbox{\begin{minipage}{\textwidth}
+	\textbf{Fullbis 4:} Un estado coherente es definida por el operador de subida
+	actuando on un estado propio de $\alpha$
+	$$
+		\hat a | \alpha \rangle = \alpha | \alpha \rangle.
+	$$
+	Escribiendo este estado en la base propia de los energias 
+	$$
+		|\alpha \rangle = \sum_{n=0}^\infty c_n | n\rangle
+	$$
+	encuentre la relcaión de recurrencia que cumplen los coeficients $c_n$. Observa
+	que estan todos fijados excepte el pimer $c_0$ que fija la normalización.
+\end{minipage}} \\\\
+\textbf{Solución:} \\
+Combinando los dos relaciónes 
+$$
+	\hat a | \alpha \rangle = a \sum_{n=0}^\infty c_n | n\rangle =
+\sum_{n=0}^\infty c_n \sqrt n | n-1\rangle \overset{n=n+1} \sum_{n=0}^\infty
+\sum_{n=0}^\infty c_{n+1} \sqrt{n+1} |n+1\rangle \overset{!}{=} \sum_n^\infty
+\alpha c_n | n\rangle
+$$
+donde hemos utilizado la ecuación del estado coharente otra vez en el ultimo
+término. Locigamente nos da la relación
+$$
+	c_{n+1} \sqrt{n+1} = \alpha c_n \quad \Rightarrow \qquad c_{n+1} =
+\frac{\alpha}{\sqrt{n+1}} c_n.
+$$
+Ahora tenemos la relacíon de recurrencia que cumplen los coefficientes $c_n$.
+Pues también queremos que calcular el estado $|\alpha\rangle$ para quien nos
+necesitamos una relación por $c_n$. Escribiendo unas ejemplos de la relación de
+recurrencia 
+\begin{align*}
+	c_1 &= \frac{\alpha}{\sqrt 1} c_0 \\
+	c_2 &= \frac{\alpha}{\sqrt 2} c_2 = \frac{\alpha^2}{\sqrt{1\cdot 2}} c_0 \\
+	c_3 &= \frac{\alpha}{\sqrt 3} = \frac{\alpha^2}{\sqrt{2 \cdot 3}} c_1 =
+\frac{\alpha^3}{\sqrt{1 \cdot 2 \cdot 3}} c_0 \\
+	\vdots &= \vdots \\
+	c_n &\overset{!}{=} \frac{\alpha^n}{\sqrt{n!}} c_0
+\end{align*}
+Logicamente todos los coeficientes $c_n$ estan fijados excepte el primer $c_0$
+con que vamos a fijar la normalización luego. Para comprobar la relación de
+$c_n$ vamos a usar la inducción mathematica otra vez. Por $n=1$ lo sabemos que
+esta ciert y con la  \textbf{hipótesis
+inductiva} 
+$$
+	c_n = \frac{\alpha^n}{\sqrt{n!}} c_0
+$$
+podemos facilmente comprobar que la presunción para $c_n$ esta cierto también
+$$
+	c_{n+1} = \frac{\alpha^{n+1}}{\sqrt{n+1!}} c_0 \qed
+$$
+donde hemos facilmente usado la hipótesis inductiva. Así por nuestro estado
+$|\alpha\rangle$ podemos escribir
+$$
+	|\alpha\rangle c_0 \sum_{n=0}^\infty \frac{\alpha^n}{\sqrt{n!}} | n\rangle.
+$$
+Ahora vamos a normalizarlo para encontrar el valor de $c_0$
+$$
+	\langle \alpha | \alpha \rangle = | c_0 |^2 \sum_{n=0}^{|\alpha|^{2n}}{n!}
+\overset{!}{=} 1 \quad \Rightarrow \qquad |c_0| = e^{- \frac{|\alpha|^2}{2}}
+$$
+donde hemos usado la serie de la función exponential, dado por
+$$
+	e^{x^2} = \sum_{n=0}^\infty \frac{x^n}{\sqrt{n!}}.
+$$
+Pues por final tenemos
+$$
+	|\alpha \rangle = e^{- \frac{|\alpha|^2}{2}} \sum_{n=0}^\infty
+\frac{\alpha^n}{\sqrt{n!}} | n\rangle.
+$$
+
+
+
+
