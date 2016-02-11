@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.25)  8 FEB 2016 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.25)  11 FEB 2016 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fisicaCuantica.tex
+**fisicaCuantica.tex [B
 (./fisicaCuantica.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 79 languages loaded.
@@ -265,6 +265,15 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+\mybox=\box28
 \c@definition=\count113
 
 (./fisicaCuantica.aux
@@ -273,24 +282,24 @@ LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `fisicaCuantica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -300,9 +309,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count114
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./fisicaCuantica.out) (./fisicaCuantica.out)
 \@outlinefile=\write3
@@ -313,7 +322,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen119
-\scratchbox=\box29
+\scratchbox=\box30
 \nofMPsegments=\count116
 \nofMParguments=\count117
 \everyMPshowfont=\toks27
@@ -341,55 +350,44 @@ Missing character: There is no Ã in font cmr17!
 Missing character: There is no ­ in font cmr17!
 Missing character: There is no Ã in font cmr17!
 Missing character: There is no ¡ in font cmr17!
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 33.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./fisicaCuantica.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ³ in font cmbx10!
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
-)
+(./fisicaCuantica.toc)
 \tf@toc=\write4
 \openout4 = `fisicaCuantica.toc'.
 
@@ -549,7 +547,19 @@ Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+
+ []
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ³ in font cmbx10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
@@ -558,36 +568,36 @@ Missing character: There is no ­ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ± in font cmr10!
 
-Overfull \hbox (62.42697pt too wide) in paragraph at lines 26--26
+Overfull \hbox (62.42697pt too wide) in paragraph at lines 27--27
 [] 
  []
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 43.
+(babel)             in language append on input line 44.
 [3
 
 ]
@@ -597,8 +607,10 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ³ in font cmbx10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--54
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
 
  []
 
@@ -613,29 +625,29 @@ Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 113.
 [4]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
@@ -646,7 +658,7 @@ Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 
-Overfull \hbox (86.47632pt too wide) detected at line 129
+Overfull \hbox (61.47629pt too wide) detected at line 136
 \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 i[] \OT1/cmr/m/n/10 = \O
 MS/cmsy/m/n/10 h\OML/cmm/m/it/10 n\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (\OML/cmm/m
 /it/10 a \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )[]\OMS/cmsy/m/n
@@ -662,6 +674,14 @@ L/cmm/m/it/10 a[]a\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 n\OMS/cms
 y/m/n/10 i[]
  []
 
+
+Overfull \hbox (299.64607pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 por lo tan-to ve-mos que la in-de-ter-mi-na-cion del Ha-mil-to-
+niano es-ta ce-ro. [] 
+ []
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ³ in font cmbx10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -669,7 +689,7 @@ Missing character: There is no ­ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--143
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
@@ -684,29 +704,29 @@ Missing character: There is no   in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no   in font cmr10!
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 182.
 [5]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no   in font cmr10!
@@ -722,51 +742,53 @@ Missing character: There is no Â in font cmr7!
 Missing character: There is no   in font cmr7!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ³ in font cmbx10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
+Underfull \hbox (badness 10000) in paragraph at lines 208--211
 
  []
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 
-Overfull \hbox (94.0708pt too wide) detected at line 212
+Overfull \hbox (69.07077pt too wide) detected at line 231
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )[] = [](\OML/cmm/m/it/10 
 m![] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 i[]\OT1/cmr/m/n/10 )[] = [] [][] = [
 ] []
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 212.
+(babel)             in language append on input line 231.
 [6]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no   in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Overfull \hbox (4.43497pt too wide) in paragraph at lines 234--234
+Overfull \hbox (4.43497pt too wide) in paragraph at lines 253--253
 [] 
  []
 
@@ -776,6 +798,69 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ² in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
+
+ []
+
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 296.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 296.
+[7]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 334--335
+[][] 
+ []
+
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -786,15 +871,50 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no   in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ³ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ³ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--250
+Underfull \hbox (badness 10000) in paragraph at lines 344--347
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--347
+
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 350.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 350.
+[8]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -824,35 +944,10 @@ Missing character: There is no   in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Overfull \hbox (3.35666pt too wide) in paragraph at lines 280--280
+Overfull \hbox (3.35666pt too wide) in paragraph at lines 380--380
 [] 
  []
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 280.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 280.
-[7]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -866,10 +961,35 @@ Missing character: There is no ³ in font cmbx10!
 Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ³ in font cmbx10!
 
-Overfull \hbox (31.80002pt too wide) in paragraph at lines 294--299
+Overfull \hbox (21.79999pt too wide) in paragraph at lines 395--400
 [][] 
  []
 
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 403.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 403.
+[9]
 Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ³ in font cmbx10!
 Missing character: There is no Ã in font cmr10!
@@ -886,31 +1006,6 @@ Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ³ in font cmbx10!
 Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ³ in font cmbx10!
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 328.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 328.
-[8]
 Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ³ in font cmbx10!
 Missing character: There is no Ã in font cmr10!
@@ -919,12 +1014,37 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 458.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 458.
+ [10]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 
 
 Package amsthm Warning: The \qedhere command may not work correctly here on inp
-ut line 362.
+ut line 463.
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
@@ -932,43 +1052,18 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 
 Package amsthm Warning: The \qedhere command may not work correctly here on inp
-ut line 374.
+ut line 475.
 
 
-Overfull \hbox (31.80002pt too wide) in paragraph at lines 387--391
+Overfull \hbox (21.79999pt too wide) in paragraph at lines 488--492
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--391
+Underfull \hbox (badness 10000) in paragraph at lines 488--492
 
  []
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 391.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 391.
-[9]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -982,17 +1077,41 @@ Missing character: There is no ³ in font cmbx10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 
-Overfull \hbox (21.79999pt too wide) in paragraph at lines 428--431
+Overfull \hbox (21.79999pt too wide) in paragraph at lines 528--531
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--431
+Underfull \hbox (badness 10000) in paragraph at lines 528--531
 
  []
 
-
-Overfull \hbox (7.8085pt too wide) detected at line 436
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 531.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 531.
+[11]
+Overfull \hbox (7.8085pt too wide) detected at line 536
 []\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 \OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 = \OML
 /cmm/m/it/10 a [] c[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 n\OMS/cmsy/m/n/10 i \OT
 1/cmr/m/n/10 = [] \OML/cmm/m/it/10 c[][]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 n \O
@@ -1008,31 +1127,6 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 442.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 442.
-[10]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -1061,83 +1155,211 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 566.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 566.
+[12]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
+
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ² in font cmr10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ³ in font cmbx10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--608
+
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 623.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 623.
+[13]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr7!
+Missing character: There is no   in font cmr7!
+Missing character: There is no Â in font cmr5!
+Missing character: There is no   in font cmr5!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr7!
+Missing character: There is no   in font cmr7!
+Missing character: There is no Â in font cmr5!
+Missing character: There is no   in font cmr5!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language append on input line 689.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language append on input line 689.
+ [14]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no   in font cmr10!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 25.
- [11]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 25.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 25.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+(babel)             in language append on input line 37.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./fisicaCuantica.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `fisicaCuantica.out' has not changed.
 (rerunfilecheck)             Checksum: 4E1D129D637E52FFF827C4353822E6D0;356.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 25.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 6853 strings out of 493054
- 97190 string characters out of 6134760
- 196707 words of memory out of 5000000
- 10272 multiletter control sequences out of 15000+600000
+ 6895 strings out of 493054
+ 97910 string characters out of 6134760
+ 201755 words of memory out of 5000000
+ 10315 multiletter control sequences out of 15000+600000
  12754 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,18n,32p,229b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,18n,32p,232b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1156,10 +1378,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb>
-Output written on fisicaCuantica.pdf (13 pages, 201364 bytes).
+Output written on fisicaCuantica.pdf (16 pages, 214558 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

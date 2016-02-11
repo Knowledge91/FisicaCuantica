@@ -2,13 +2,14 @@
 
 \section{Problemas}
 
-\begin{enumerate}
-
-\item Ecuentra las expressiones del los observables $x$ y $p$ en términos de los
+\begin{ejercicio}
+\textbf{Full1: 1}
+Ecuentra las expressiones del los observables $x$ y $p$ en términos de los
 operadores $a$ y $a^\dagger$ que permiten escribir l'hamiltoniano armónico
 unidimensional como $H = \hbar \omega (a^\dagger a + 1/2)$. Conviene que
 utilizas argumentos d'hermitinidad y dimensional.	\\\\
-\textbf{Solucion:} \\
+\end{ejercicio}
+\begin{solucion}
 Los operadores escalera estan definida por
 \begin{align*}
 	a \,=\, \sqrt{\frac{m\omega}{2 \hbar}} \left( \hat x + \frac{i}{m \omega} \hat p
@@ -43,13 +44,19 @@ y de $\hat p$
 \end{equation*}
 donde hemos mirado solo términos importantes, estan hecho facilmente.
 
-\item Utilza los operadores escalar $a$ y $a^\dagger$ para calcular los valores
+\end{solucion}
+% -----------------------------------------------------------------------------
+
+
+\begin{ejercicio}
+\textbf{Full1: 2} Utilza los operadores escalar $a$ y $a^\dagger$ para calcular los valores
 esperados $\langle x \rangle_n$, $\langle p \rangle_n$, $\langle x^2 \rangle_n$,
 $\langle p^2 \rangle_n$, $\langle K \rangle_n$, $\langle V \rangle_n$ y los
 indeterminaciónes $\langle (\Delta x)^2 \rangle_n$, $\langle(\Delta p)^2\rangle_n$ y
 $\langle(\Delta H)^2\rangle_n$ de el estado
-estacionario $|n\rangle$ de l'oscilador armónico unidimensional. \\\\
-\textbf{Solucion:}\\
+estacionario $|n\rangle$ de l'oscilador armónico unidimensional. 
+\end{ejercicio}
+\begin{solucion}
 Recuerdando que los vectores del estado estan orthogonales
 \begin{equation*}
 	\langle n | n' \rangle \,=\, \delta_{nn'}
@@ -132,11 +139,17 @@ repitiendo el mismo processo por $p^4$ danos como resultado
 	\langle H^2 \rangle_n = \langle H \rangle_n^2
 \end{equation*}
 por lo tanto vemos que la indeterminacion del Hamiltoniano esta cero.
+\end{solucion}
+% -----------------------------------------------------------------------------
 
-\item por el estado no estacionario inicial (y sencillo) $|\psi(t=0)\rangle =
+
+\begin{ejercicio}
+\textbf{Full1: 3} 
+Por el estado no estacionario inicial (y sencillo) $|\psi(t=0)\rangle =
 \frac{1}{\sqrt{2}} |0\rangle + \frac{1}{\sqrt{2}} | 1 \rangle$ y cualquier
-instant de tiempo t. \\\\
-\textbf{Solucion:} \\
+instant de tiempo t. 
+\end{ejercicio}
+\begin{solucion}
 Primero tenemos que evaluar la evolución del tiempo del estado no esacionario
 inicial. Por lo tanto deberiamos calcular la energía del oscillador armónico
 del estado fundamental y primero estado
@@ -179,15 +192,21 @@ t}\langle 0 | a | 1 \rangle - e^{i\omega t} \langle 1| a^\dagger | 0 \rangle
 e^{i \omega t} \right) \\
 	&= -\sqrt{\frac{\hbar m \omega}{2}} \sin{\omega t}  
 \end{align*}
+\end{solucion}
+% -----------------------------------------------------------------------------
 
-\item Dada la function d'onda del estado fundamental del oscilador armónico
+
+\begin{ejercicio}
+\textbf{Full1: 4}
+Dada la function d'onda del estado fundamental del oscilador armónico
 unidimenional
 \begin{equation*}
 	\phi_0 (x) = \left(\frac{m\omega}{\pi \hbar}\right)^{\frac{1}{4}} e^{-\frac{1}{2}
 \frac{m\omega}{\hbar} x^2}
 \end{equation*}
-ecuentre l'expresion de $\phi_2(x)$. \\\\
-\textbf{Solucion:} \\
+ecuentre l'expresion de $\phi_2(x)$. 
+\end{ejercicio}
+\begin{solucion}
 Nos podemos escribir el operador escalar $a^\dagger$ en la siguiente forma
 \begin{equation*}
 	a^\dagger = \frac{1}{\sqrt{2\hbar m\omega}}(m \omega \hat x - i \hat p) \quad
@@ -232,19 +251,100 @@ e^{\frac{1}{2} \frac{m \omega}{\hbar} x^2} \\
 \left(-\frac{1}{\sqrt{8}} + \sqrt{2} \frac{m\omega}{\hbar} x^2 \right)
 e^{\frac{1}{2} \frac{m\omega}{\hbar} x^2}
 \end{align*}
+\end{solucion}
+% -----------------------------------------------------------------------------
 
-\item En la mecánica matricial, qual es el ket $|x =0 \rangle$ que represente un
+\begin{ejercicio}
+	\textbf{Full1: 7} En la mecánica matricial, qual es el ket $|x =0 \rangle$ que represente un
 oscilador situada exactamente al origen $x=0$? Distinguie entre componentes
 pares y impares. Compara con los resultados de mecánica ondulatòria.
+\end{ejercicio}
+Aplicar el operador $\hat x$ al eigenket $|x=0\rangle$ logigamente danos
+$$
+	\hat | x=0 \rangle \overset{!}{=} 0 \quad \Rightarrow \qquad \hat x |
+x=0\rangle = \sqrt{\frac{\hbar}{2 m\omega}} ( \hat a + \hat a^\dagger) | x = 0 \rangle = 0 
+$$
+En la forma del matrix podemos escribir los operadores escalar como
+$$
+	\hat a = \begin{pmatrix} 
+	0 & 1 & 0 & 0 & \cdots \\
+	0 & 0 & \sqrt 2 & 0 & \cdots \\
+	0 & 0 & 0 & \sqrt 3 & \cdots \\
+	0 & 0 & 0 & 0 & \cdots\\
+	\cdots & \cdots & \cdots & \cdots & \cdots  
+	\end{pmatrix}, \qquad \hat a^\dagger = \begin{pmatrix}
+	0 & 0 & 0 & 0 & \cdots \\
+	1 & 0 & 0 & 0 & \cdots \\
+	0 & \sqrt 2 & 0 & 0 & \cdots \\
+	0 & 0 & \sqrt 3 & 0 & \cdots \\
+	0 & 0 & 0 & \sqrt 4 & \cdots \\
+	\cdots & \cdots & \cdots & \cdots & \cdots  
+	\end{pmatrix}
+$$
+Por lo tanto la suma esta dado por
+$$
+	(\hat a + \hat a^\dagger) |x=0\rangle = \begin{pmatrix}
+	0 & 1 & 0 & 0 & 0 & \cdots \\
+	1 & 0 & \sqrt 2 & 0 & 0 & \cdots \\
+	0 & \sqrt 2 & 0 & \sqrt 3 & 0 & \cdots \\
+	0 & 0 & \sqrt 3 & 0 & \sqrt 4 & \cdots \\
+	0 & 0 & 0 & \sqrt 4 & 0 & \cdots \\
+	\cdots & \cdots & \cdots & \cdots & \cdots  
+	\end{pmatrix} \cdot \begin{pmatrix}
+	c_0 \\ c_1 \\ c_2 \\ c_3 \\ c_4 \\ \vdots \\ c_n
+	\end{pmatrix} = 0
+$$
+Ya tenemos un systema de ecuaciónes que podemos resolvar por los coeficientes
+$c_n$
+\begin{align*}
+	c_1 = 0, \quad c_0 + \sqrt 2 c_2 = 0, \quad  \sqrt 2 c_2 + c_3 = 0, \quad
+\sqrt 3 c_2 + \sqrt 4 c_4 = 0
+\end{align*}
+en consecuencia todo los $c_n$ con un index impar estan zero
+$$
+	c_{n+1} = 0 \quad \text{con} \qquad n \in 1, 2, 3, \cdots
+$$
+De hecho el systema de ecuaciónes danos por los $c_n$ con un index par 
+$$
+	c_2 = \frac{-c_0}{\sqrt 2}, \quad c_4 = - \frac{\sqrt 3}{\sqrt 4}c_2 =
+\frac{3}{8}c_0, \quad c_6 = \frac{\sqrt{15}}{\sqrt{48}} c_0, \quad
+\cdots
+$$
+Ademas, para encontrar la solution que obadece la mecanica cuantica, tenemos que
+normalizar el eigenket con la introdución de un factor der normalización $N$.
+Como podemos ver todos los coeficientes $c_n$ con un index par dependen de $c_0$
+entonces solo tenemos que normalizarlo
+$$ 
+	\frac{c_0}{N} = 1
+$$ 
+y el resto esta dado por
+$$
+	\langle x = 0| x = 0\rangle = 1 \quad \Rightarrow \qquad | x=0 \rangle = N
+\begin{pmatrix}
+	1 \\ 0 \\ - \frac{1}{\sqrt 2} \\ 0 \\ \left(-\frac{1}{\sqrt
+2}\right)\left(-\frac{\sqrt 3}{\sqrt 4}\right) \\ \vdots  
+	\end{pmatrix}.
+$$
+El eigenket $|x=0\rangle$ corresponde a una serie dado por
+$$
+	\frac{1}{N} C_2n = (-)^n \sqrt{\frac{(2n-1)!!}{2^n n!}}
+$$
+\red{normalization problem}
+	
+\rule{\textwidth}{1pt}
 
-\item Un estado coherente a $t=0$ esta dado por el ket
+% ------------------------------------------------------------------------------------------
+	
+	
+\begin{ejercicio}
+\textbf{Full1 10} Un estado coherente a $t=0$ esta dado por el ket
 $$
 	| \alpha_0 \rangle e^{\frac{1}{2} |\alpha_0|^2} \sum_{n=0}^{\infty}
 	\frac{\alpha_0^n}{\sqrt{n!}} |n\rangle 
 $$
 Ecuentre el ket $|\alpha(t)\rangle$ que da su evolución temporal y comproba que
 satisfará la equación de Schrödinger dependiendo de t. \\\\
-\textbf{Solucion:} \\
+\end{ejercicio}
 Empezando por lo evolución temporal nos sabemos que los estados del oscilador
 armónico esta dado por
 $$	
@@ -278,9 +378,10 @@ e^{-\frac{1}{2} |\alpha_0|} e^{-\frac{i\omega t}{2}} \sum_{n=0}^\infty n
 \frac{\alpha_0^n}{\sqrt{n!}}|n\rangle}_{\hat N | \alpha(t) \rangle}  \\
 	&= \hbar \omega \left(\frac{1}{2} + a^\dagger a \right) |\alpha(t)\rangle = H | \alpha(t) \rangle
 \end{align*}
+\rule{\textwidth}{1pt}
+%----------------------------------------------------------------------------------------------------
 
 \fbox{\begin{minipage}{\textwidth}
-	\item
 	Ultilza la regla de commutación $[a, a^\dagger] = 1$, comprobar que 
 	$$
 		[a, (a^\dagger)^n] = n (a^\dagger)^{n-1} \quad  \text{y} \qquad [a^n,
@@ -376,7 +477,7 @@ $$
 \end{proof}
 
 \fbox{\begin{minipage}{\textwidth}
-	\item	Encuentre los commutatores
+		Encuentre los commutatores
 	$$
 		[\hat N, (a^\dagger)^k] \quad \text{y} \qquad [\hat N, a^]	
 	$$
@@ -411,7 +512,6 @@ $$
 \sum_{n=0}^\infty k_n n (a^\dagger)^n = a^\dagger \frac{d f(a^\dagger)}{d
 (a^\dagger)}
 $$
-\end{enumerate}
 
 \fbox{\begin{minipage}{\textwidth}
 	\textbf{Fullbis 4:} Un estado coherente es definida por el operador de subida
@@ -483,6 +583,122 @@ $$
 	|\alpha \rangle = e^{- \frac{|\alpha|^2}{2}} \sum_{n=0}^\infty
 \frac{\alpha^n}{\sqrt{n!}} | n\rangle.
 $$
+
+
+\noindent\rule{\textwidth}{1px}\\
+% ----------------------------------------------------------------------------- 
+
+\begin{ejercicio}
+\textbf{Full1bis: 9}
+	Escribe el estado coherente $|\alpha\rangle$ como el estado
+$f(a^\dagger)|0\rangle$ (por simplicidad suponemos que $\alpha \in
+\mathcal{R}$). Utilizad el resultado del problema 1, demostra que la función
+$f(a^\dagger)$ cumple la equación
+$$
+	\frac{d f(a^\dagger)}{d a^\dagger} - \alpha f(a^\dagger) = 0
+$$
+Integradla y encontrad la constant de normalizaciòn por econtrar que un estado
+coherent se puede escribir como
+$$
+	|\alpha \rangle = e^{-\alpha^2/2} e^{\alpha a^\dagger} | 0\rangle
+$$
+\end{ejercicio}
+\begin{solucion}
+El ejercicio nos dice que el ket $|\alpha\rangle$ esta dado por
+$$
+	|\alpha\rangle = f(a^\dagger)|0\rangle
+$$
+Ahora queremos que comprobar la siguiente relación
+$$
+	\underbrace{\frac{d f(a^\dagger)}{d a^\dagger}}_{[a, f(a^\dagger)]} - \alpha f(a^\dagger) \overset{!}{=} 0
+$$
+donde hemos utilizado el resultado del ejercicio $Full1bis: 1$. Para comprobarlo
+multiplicamos la ralación con $|0\rangle$ de la deracha
+$$
+	a \underbrace{f(a^\dagger)|0\rangle}_{\alpha} - f(a^\dagger)
+\underbrace{a|0\rangle}_{0} -\alpha
+\underbrace{f(a^\dagger)|0\rangle}_{|\alpha\rangle} = a | \alpha \rangle -
+\alpha | \alpha \rangle = \alpha | \alpha \rangle - \alpha | \alpha \rangle = 0
+\qed
+$$
+donde hemos ultilizado que $|\alpha\rangle$ es un estadao coherente. \\
+Por el segundo parte del ejercicio queremos integrar la ecuación diferential 
+$$
+	\frac{d f(a^\dagger)}{d a^\dagger} = \alpha f(a^\dagger) \quad \Rightarrow
+\quad f(a^\dagger) = C e^{\alpha a^\dagger}
+$$
+Para consequir el valor de $C$ vamos a normalzar el estado $|\alpha\rangle$ dado
+por
+$$
+	|\alpha\rangle = f(a^\dagger) | 0\rangle = C e^{\alpha a^\dagger} | 0
+\rangle \quad \text{y} \quad \langle \alpha | \alpha \rangle = 1
+$$
+Por lo tanto la normalización esta dado por
+$$
+	\langle \alpha | \alpha \rangle = C^2 \langle 0 | e^{\alpha a} e^{\alpha
+a^\dagger} | 0\rangle
+$$
+Aqui queremos que introducir la forumla de \textbf{Baker-Campbell-Hausdorf} dado
+por
+$$
+	e^A e^B = \exp(A+B+\frac{1}{2}[A,B])
+$$
+Por eso podemos escribir
+\begin{align*}
+	e^{\alpha a} e^{\alpha a^\dagger} &= \exp(\alpha a + \alpha a^\dagger +
+\frac{\alpha^2}{2} \underbrace{[a, a^\dagger]}_1 = \exp(\alpha a + \alpha
+a^\dagger) \exp(\frac{\alpha^2}{2}) \\
+	e^{\alpha a^\dagger} e^{\alpha a} &= \exp(\alpha a^\dagger + \alpha a +
+\frac{\alpha}{2} \underbrace{[a^\dagger, a]}_{-1}) = \exp(\alpha a^\dagger +
+\alpha a) \exp(-\frac{\alpha^2}{2}).
+\end{align*}
+Nota que podemos cambiar el order de los operadoes escalares en las funcionas
+exponetiales a las derechas. Asi podemos escribir
+$$
+	e^{\alpha a} e^{\alpha a^\dagger} = e^{\alpha a^\dagger} e^{\alpha a}
+e^{\alpha^2}
+$$
+que tiene los operadores $a$ a la derecha. El order de los operadores escalares
+va a ser importante por los siguientes pasos. Por lo tanto podemos continuar con
+la normalización
+\begin{align*}
+	\langle \alpha | \alpha \rangle &= C^2 \langle 0 | e^{\alpha a^\dagger}
+e^{\alpha a^\dagger} | 0\rangle \\
+	=& C^2 \langle 0 | e^{\alpha a^\dagger} e^{\alpha a} e^{\alpha^2} | 0\rangle
+\\
+	=& C^2 e^{\alpha^2} \langle 0| e^{\alpha a^\dagger} e^{\alpha a} | 0\rangle
+\end{align*}
+donde hemos utilizado que 
+$$
+	\langle 0 | e^{\alpha a^\dagger} e^{\alpha a} | 0\rangle = 1
+$$
+Para comprobar la relacion arriba expandemos las funciónes exponentiales
+\begin{align*}
+	e^{\alpha a} &= 1 + \alpha a + \frac{\alpha^2 a^2}{2} + \cdots 
+	e^{\alpha a^\dagger} &= 1 + \alpha a^\dagger + \frac{\alpha^2
+(\alpha^\dagger)^2}{2} + \cdots
+\end{align*}
+Asi podemos escribir el bracket como 
+\begin{align*}
+	\langle 0 | e^{\alpha a^\dagger} e^{\alpha a} | 0\rangle &= \langle 0 | ( 1 +
+\alpha a^\dagger + \cdots)(1 + \alpha a + \cdots ) | 0 \rangle \\
+	&= \langle 0 | 0 \rangle + \cancel{\langle 0 | \alpha a | 0 \rangle} +
+\cancel{\langle 0 | \alpha a^\dagger | 0 \rangle} + \cancel{\langle 0 | \alpha^2
+a^\dagger a | 0\rangle} + \cdots \\
+	&= \langle 0 | 0 \rangle = 1 
+\end{align*}
+porque los operadores $a$ siempre estan al lado directo y en consequencia el
+valor esperado desaparece. Despues de todo tenemos el valor
+$$
+	\langle \alpha | \alpha \rangle = 1 = C^2 e^{\alpha^2} \quad \Rightarrow
+\quad C = e^{-\frac{\alpha^2}{2}}
+$$
+por C y asi tambien el valor
+$$
+	|\alpha \rangle = e^{-\frac{\alpha^2}{2}} e^{\alpha a^\dagger} | 0 \rangle
+$$
+\end{solucion}
+
 
 
 
