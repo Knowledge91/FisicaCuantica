@@ -337,7 +337,7 @@ $$
 	
 	
 \begin{ejercicio}
-\textbf{Full1 10} Un estado coherente a $t=0$ esta dado por el ket
+\textbf{Full1: 10} Un estado coherente a $t=0$ esta dado por el ket
 $$
 	| \alpha_0 \rangle e^{\frac{1}{2} |\alpha_0|^2} \sum_{n=0}^{\infty}
 	\frac{\alpha_0^n}{\sqrt{n!}} |n\rangle 
@@ -381,19 +381,21 @@ e^{-\frac{1}{2} |\alpha_0|} e^{-\frac{i\omega t}{2}} \sum_{n=0}^\infty n
 \rule{\textwidth}{1pt}
 %----------------------------------------------------------------------------------------------------
 
-\fbox{\begin{minipage}{\textwidth}
-	Ultilza la regla de commutación $[a, a^\dagger] = 1$, comprobar que 
-	$$
-		[a, (a^\dagger)^n] = n (a^\dagger)^{n-1} \quad  \text{y} \qquad [a^n,
-	a^\dagger] = n a^{n-1}.
-	$$
-	Ademas con los primeros resultatos justifica los relaciónes
-	$$	
-		[a, f(a^\dagger)] = \frac{d f(a\dagger)}{d a^\dagger} \quad \text{y} \qquad [f(a),
+
+\begin{ejercicio}
+\textbf{Full1bis: 1} 
+Ultilza la regla de commutación $[a, a^\dagger] = 1$, comprobar que 
+$$
+	[a, (a^\dagger)^n] = n (a^\dagger)^{n-1} \quad  \text{y} \qquad [a^n,
+a^\dagger] = n a^{n-1}.
+$$
+Ademas con los primeros resultatos justifica los relaciónes
+$$	
+	[a, f(a^\dagger)] = \frac{d f(a\dagger)}{d a^\dagger} \quad \text{y} \qquad [f(a),
 	a^\dagger] = \frac{d f(a)}{d a}
-	$$
-\end{minipage}} \\
-\textbf{Solucion:} \\
+$$
+\end{ejercicio}
+\begin{solucion}
 Para derivar la premiero relación tenemos que utilizar la indución mathematica.
 Empezando por la \textbf{iniciación de la inducción}
 \begin{proof}
@@ -475,18 +477,21 @@ $$
 \sum_{n=0}^\infty k_n n a^{n-1} = \frac{d f(a)}{da} \qedhere
 $$
 \end{proof}
+\end{solucion}
+% -----------------------------------------------------------------------------
 
-\fbox{\begin{minipage}{\textwidth}
-		Encuentre los commutatores
-	$$
-		[\hat N, (a^\dagger)^k] \quad \text{y} \qquad [\hat N, a^]	
-	$$
-	Ademas justificar el resultado 
-	$$
-		[\hat N, f(a^\dagger)] = a^\dagger \frac{d f(a^\dagger)}{d a^\dagger}
-	$$
-\end{minipage}}\\\\
-\textbf{Solucion:}\\
+\begin{ejercicio}
+\textbf{Full1bis: 2} \\
+Encuentre los commutatores
+$$
+	[\hat N, (a^\dagger)^k] \quad \text{y} \qquad [\hat N, a^]	
+$$
+Ademas justificar el resultado 
+$$
+	[\hat N, f(a^\dagger)] = a^\dagger \frac{d f(a^\dagger)}{d a^\dagger}
+$$
+\end{ejercicio}
+\begin{solucion}
 Usando los resultados del ejercicio anterior esta facil calculando los
 resultados de ese problema. En chronologia
 $$
@@ -512,6 +517,8 @@ $$
 \sum_{n=0}^\infty k_n n (a^\dagger)^n = a^\dagger \frac{d f(a^\dagger)}{d
 (a^\dagger)}
 $$
+\end{solucion}
+% -----------------------------------------------------------------------------
 
 \fbox{\begin{minipage}{\textwidth}
 	\textbf{Fullbis 4:} Un estado coherente es definida por el operador de subida
@@ -698,8 +705,144 @@ $$
 	|\alpha \rangle = e^{-\frac{\alpha^2}{2}} e^{\alpha a^\dagger} | 0 \rangle
 $$
 \end{solucion}
+% -----------------------------------------------------------------------------
 
-
-
-
-
+\begin{ejercicio}
+\textbf{Full1bis: 9}
+	Calcula $\langle 0 | e^{ik\hat x} | 0 \rangle$ y comproba que podemos
+escribirlo como $e^{-\frac{k^2}{2} \langle 0 | \hat x^2 | 0 \rangle}$. A partir
+de esta relación encuentra el valor de $\langle 0 | \hat x^{2n} | 0 \rangle$.
+\end{ejercicio}
+Aqui queremos empezar con la segunda parte de ese ejercicio. En general queremos
+comprobar la siguiente relaciòn
+$$
+	\langle 0 | \hat x^{2n} | 0 \rangle \overset{!}{=} (2n - 1)!! \langle 0 |
+\hat x^2 | 0 \rangle^n 
+$$
+Nota que tenomos una falcultad doble que esta en general dado por
+$$
+	n!! \equiv 
+	\left\{
+	\begin{split}
+		n \cdot (n-2) \cdots 5 \cdot 3 \cdot 1 \quad &n > 0 (\text{par}) \\
+		n \cdot (n-2) \cdots 6 \cdot 4 \cdot 2 \quad &n > 0 (\text{impar}) \\
+		1  & n = -1, 0
+	\end{split}
+	\right.
+$$
+Adémas vamos a utilizar la teorema fundamental del del cálculo, en la forma
+siguiente
+$$
+	\int_{-\infty}^\infty x^2  e^{-c x^{2n}} = \left(- \frac{d}{d c}\right)^n
+\int_{-\infty}^\infty e^{-c x^{2n}}.
+$$
+Antes de hacer la comprobación evaluamos la siguiente relacion
+\begin{align*}
+	\langle 0 | \hat  x^2 | 0 \rangle \int_{-\infty}^\infty \langle 0 | \hat x^2 | x
+\rangle \langle x | 0 \rangle = \int_{-\infty}^\infty x^2 | \langle 0 | x
+\rangle^2
+\end{align*}
+Aqui podemos ver la funcioná de onda de oscillador armónico en el estado
+fundamental esta dado por
+$$
+	\langle x | 0 \rangle = \phi_0 (x) = \left(\frac{m \omega}{\pi \hbar}
+\right)^\frac{1}{4} e^{-\frac{m\omega}{2\hbar} x^2}  
+$$
+$$
+	|\langle x | 0 \rangle |^2 = \frac{1}{\sqrt \pi} \underbrace{\sqrt{
+\frac{m\omega}{\hbar}}}_{\sqrt{c}}
+\exp\left(-\frac{1}{2}\underbrace{\frac{m\omega}{\hbar}}_{c} x^2\right)
+$$
+Asi tenemos
+\begin{align*}
+	\langle 0 | \hat x^2 | 0 \rangle &= \frac{\sqrt c}{\sqrt{\pi}} 
+\int_{-\infty}^\infty x^2 e^{-c x^2} \\
+&= \frac{\sqrt c}{\sqrt \pi} \left(-
+\frac{d}{dc} \right) \int_{-\infty}^\infty e^{-cx^2} \\
+&= \frac{\sqrt c}{\sqrt \pi} \left(-\frac{d}{dc}\right) \sqrt{\frac{\pi}{c}} = \frac{\sqrt c}{2} \frac{1}{ c^{\frac{3}{2}}} =
+\frac{1}{2c}
+\end{align*}
+donde hemos utilizado el integral de Gauss
+$$
+	\int_{-\infty}^\infty e^{-c^2 x^2} = \sqrt{\frac{\pi}{c}}
+$$
+Es valor también danos 
+$$
+	\langle 0 | x^2 | 0 \rangle^n = \frac{1}{2^n c^n}
+$$
+que vamos a necesitar en poco tiempo. Ahora queremos comprobar la relacion
+inicial. Por eso econtramos una serie para $\langle 0 | x^{2n} | 0 \rangle$  
+\begin{align*}
+	\langle 0 | x^{2n} | 0\rangle &= \int_{-\infty}^\infty dx \langle 0 | \hat
+x^{2n} | x \rangle \underbrace{\langle x | 0 \rangle}_{\phi_0(x)} =
+\int_{-\infty}^\infty dx x^{2n} \underbrace{ | \langle x | 0\rangle
+|^2 }_{\phi_0(x)} \\
+	&= \int_{-\infty}^\infty dx x^{2n} \sqrt{\frac{c}{\pi}} e^{-c x^2} =
+\sqrt{\frac{c}{\pi}} \left(-\frac{d}{dc}\right)^n \int_{-\infty}^\infty  dx
+e^{-cx^2} \\ 
+	 &= \sqrt{\frac{c}{\cancel{\pi}}} \left(- \frac{d}{dc} \right)^n
+\sqrt{\frac{\cancel{\pi}}{c}} = \sqrt c \left(- \frac{d}{dc}\right)^n \frac{1}{\sqrt
+c}
+\end{align*}
+Ahora queremos calcular el ultimo término por diferentes n
+$$
+	\left.
+	\begin{array}{l|c|c|c|c}		
+		n: & 1 & 2 & 3 & 4 \\
+		\hline
+		valor: & \frac{1}{2}\frac{1}{c} & \frac{3}{4} \frac{1}{c^2} &
+\frac{15}{8} \frac{1}{c^3} & \frac{105}{16} \frac{1}{c^4}
+	\end{array} \right\} \quad \Rightarrow \quad \frac{1\cdot3\cdot5\cdot7
+\cdots (2n-1)}{2^n} \frac{1}{c^{n}} = \frac{(2n-1)!!}{2^n c^n}
+$$
+Asi con el valor de $\langle 0| \hat x | \rangle$ podemos comprobar que
+$$
+	\langle 0 | \hat  x^{2n} | 0 \rangle = (2n -1)!! \frac{1}{2^n c^n} = (2n-1)!!
+\langle 0 | \hat x^2 | 0 \rangle^n 
+$$
+Por el primer parte del ejercicio ahora podemos comprobar que
+$$
+	\langle 0 | e^{ik\hat x} | 0 \rangle = e^{-\frac{k^2}{2}} \langle 0 | \hat
+x^2 | 0 \rangle 
+$$
+Por el valor esperado podemos expander como
+$$
+	\langle 0 | e^{ik \hat x} | 0\rangle = \langle 0 | 1 - \frac{k^2 \hat
+x^2}{2!} + \frac{k^4 \hat x^4}{4!} - \frac{k^6\hat x^6}{6!} + \frac{k^8\hat
+x^8}{8!} + \cdots \left( \right) | 0 \rangle, 
+$$
+donde hemos utlizado que cada valor espaerado que tiene un operador $\hat x$ par esta zero 
+$$
+	\langle 0 | \hat x^(2n+1) | 0 \rangle = 0
+$$
+Así podemos escribir
+\begin{align*}
+	\langle 0 | e^{ik\hat x} | 0 \rangle &= \sum_{n=0}^\infty (-)^n
+\frac{k^{2n}}{(2n)!} \underbrace{\langle 0 | \hat x^{2n} | 0
+\rangle}_{(2n-1)!!\langle 0 | \hat x^2 | 0 \rangle^n} \\
+	&= \sum_{n=0}^\infty \frac{1}{2^n n!} (-)^n -k^{2n} \langle 0 | x^2 | 0
+\rangle^n
+\end{align*}
+Aqui queremos encontrar una otra forma para escribir el facultat doble
+$$
+	\frac{(2n-1)!!}{(2n)!} = \frac{(2n)^{\underline{n}}}{2^n (2n)!} =
+\frac{n!}{2^n(2n)!} \underbrace{\frac{(2n)^{\underline{n}}}{n!}}_{\binom{2n}{n}}
+= \frac{\cancel{n!}}{2^n \cancel{(2n)!}} \frac{\cancel{(2n)!}}{\cancel{n!} n!} =
+\frac{1}{2^n n!}
+$$
+donde hemos utilizado el binomial
+$$
+	\frac{n^{\underline{k}}}{k!} = \binom{n}{k} = \frac{(n)!}{k!(k-n)!}
+$$ 
+,la siguiente relacion por un impar facultad doble
+$$
+	(2n - 1)!! = \frac{(2n)^{\underline{n}}}{2^n}.
+$$
+Mirandolo todo el resultado esta dado por
+\begin{align*}
+	\langle 0 | e^{ik\hat x} | 0 \rangle &= \frac{1}{2^n n!} (-)^n k^{2n} \langle
+0 | x^2 | 0 \rangle^n  \\
+	&= \sum_{n=0}^\infty \frac{1}{n!} \left[ - \frac{k^2}{2} \langle 0 | x^2 | 0
+\rangle \right]^n \\
+	&= e^{-\frac{k^2}{2} \langle 0 | x^2 | 0 \rangle}
+\end{align*}
