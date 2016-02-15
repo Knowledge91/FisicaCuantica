@@ -846,3 +846,34 @@ Mirandolo todo el resultado esta dado por
 \rangle \right]^n \\
 	&= e^{-\frac{k^2}{2} \langle 0 | x^2 | 0 \rangle}
 \end{align*}
+
+\begin{ejercicio}
+Sea $H = t (a^{\dagger})^2 a^2$ el Hamiltonio. Comproba que $[H, \hat N] =
+0$. Ecuentre los vectores y valores porpias. Hay un unico estado fundamental?
+\end{ejercicio}
+\begin{solucion}
+Empezamos con el commutador. El Hamiltoniano también podemos escribir como
+$$
+	H = (a^\dagger)^2 a^2 = a^\dagger a^\dagger a a = a^\dagger \hat N a = \hat
+N a^\dagger a + \underbrace{[a^\dagger, \hat N]}_{-[\hat N, a^\dagger]}a = \hat
+N \hat N - a^\dagger a = \hat N ( \hat N - 1) 
+$$
+donde hemos ultilizado el commutator 
+$$
+	[a^\dagger, \hat N] = a^\dagger N - N a^\dagger \quad \Rightarrow \qquad
+a^\dagger \hat N = N a^\dagger + [a^\dagger, \hat N]
+$$ y el commutador que hemos calculado en el ejercicio Full1bis: 2
+$$
+	[N, a^\dagger] = a^\dagger
+$$.
+En consequencia el commutador del Hamiltoniano y el operador de número esta dado
+por
+$$
+	[H, \hat N] = [\hat N^2 - \hat N, \hat N] = \underbrace{[\hat N^2, \hat
+N]}_0 - \underbrace{[\hat N, \hat N]}_0 = 0 \qed
+$$
+Si el Hamiltoniano $H$ commuta con el operador de número $\hat N$ significa que
+podemos econtrar una propia base por los dos! Logicamente los vectores porpiis
+estan $|n\rangle$ y sus valores propiis $n$ y se hay un unic estat fonamental
+$|0\rangle$ que no esta degenerado! 
+\end{solucion}
