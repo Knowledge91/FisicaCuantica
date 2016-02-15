@@ -848,7 +848,7 @@ Mirandolo todo el resultado esta dado por
 \end{align*}
 
 \begin{ejercicio}
-Sea $H = t (a^{\dagger})^2 a^2$ el Hamiltonio. Comproba que $[H, \hat N] =
+\textbf{Full1b: 10} Sea $H = t (a^{\dagger})^2 a^2$ el Hamiltonio. Comproba que $[H, \hat N] =
 0$. Ecuentre los vectores y valores porpias. Hay un unico estado fundamental?
 \end{ejercicio}
 \begin{solucion}
@@ -877,3 +877,53 @@ podemos econtrar una propia base por los dos! Logicamente los vectores porpiis
 estan $|n\rangle$ y sus valores propiis $n$ y se hay un unic estat fonamental
 $|0\rangle$ que no esta degenerado! 
 \end{solucion}
+
+\begin{ejercicio}
+	\textbf{Full1: 13} Determinad la dirección $\theta$ $\phi$ en la que
+apunta el espín de un electron $e^-$ del que conocemos
+$$
+	\langle S_x \rangle = 0; \quad \langle S_y \rangle = \frac{\hbar}{4}; \quad
+\langle S_z \rangle \leq 0 
+$$
+\end{ejercicio}
+\begin{solucion}
+Para ese ejercicio tenemos que saber los coordenadas ésfericas $\theta$ y $\phi$
+\begin{figure}
+	\center
+	\includegraphics[width=0.5\textwidth]{Images/sphericalCoordinates.png}
+	\caption{Coordenadas ésfericas}
+\end{figure}
+Por eso los valores esperados de los éspines nos dan
+\begin{align*}
+	\langle S_x \rangle = 0 \quad \Rightarrow \quad \phi = \frac{\pi}{2}
+\text{o} \phi = \frac{3\pi}{2} \\
+	\langle S_y \rangle = \frac{\hbar}{4} > 0 \quad \Rightarrow \quad
+\phi=\frac{\pi}{2} \\
+	\langle S_z \rangle > 0 \quad \Rightarrow \quad 0 < \theta < \pi
+\end{align*}
+Ya hemos encontrado $\phi$ y por el valor de $\theta$ vamos a utilizar el valor
+esperado del éspin en la direccion y. El electron es un particular con el éspin
+1/2 con que podemos utilizar los matrices de pauli $\sigma$, de que nos
+conocemos el valor esperado dado por
+$$
+	\langle \sigma_y \rangle =\sin \theta  \sin \phi
+$$
+Así tenemos
+\begin{align*}
+	S_y &= \frac{\hbar}{2} \sigma_y \\
+	\langle S_y \rangle = \frac{\hbar}{2} \langle \sigma _ y \rangle = \sin
+\theta \sin \phi \overset{!}{=} \frac{\hbar}{4}
+\end{align*}
+Lo conocemos el valor de $\phi$ y podemos resolver la ecuacion como
+$$
+	2 \sin \theta \sin \frac{\phi}{2} = 1 \quad \Rightarrow \quad \sin \theta =
+\frac{1}{2} \quad \Rightarrow \quad \theta = \frac{\pi}{6} = 30ª  
+$$
+Igualmente $\phi$ esta dado por
+$$
+	\phi = \frac{\pi}{2} = 90ª
+$$.
+
+\end{solucion}
+
+
