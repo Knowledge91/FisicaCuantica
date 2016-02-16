@@ -1,0 +1,96 @@
+\chapter{Momentum Angular}
+
+\begin{ejercicio}
+\textbf{Full1: 15} Encontrad los valors propios de el operador $L_+L_-$.
+Ecuentradlos tambien por el operador $L_-L_+$.
+\end{ejercicio}
+\begin{solucion}
+Los operadores $L_+$ y $L_-$ estan dado por
+$$
+	L_+ = (L_x + iL_y) \quad \text{y} \qquad L_i = (L_x - iL_y)
+$$ 
+con el commutador y la relacion siguiente
+$$
+	[L_x, L_y] = i \hbar L_z \quad \text{y} \quad L^2 = L_x^2 + L_y^2 + L_z^2
+$$
+\red{explain quantization!}
+Por eso podemos evaluar el operador $L_+L_-$
+$$
+	L_+L_- = (L_x + iL_y)(L_x - iL_y) = L_x^2 + L_y^2 \underbrace{+ iL_xL_y -
+iL_y L_x}_{-i[L_x, L_y]} = L^2 - L_z^2 + \hbar L_z = \hbar^2 ((l+1) -m^2 +m)
+$$
+y el operador $L_-L_+$
+$$
+	L_-L_+ = (L_x - iL_y)(L_x + iL_y) = L_x^2 + L_y^2 + \underbrace{iL_xL_y -
+iL_yL_x}_{i[L_x, L_y]} = L^2 - L_z^2 - \hbar L_z = \hbar^2 ((l+1) -m^2 -m)
+$$
+\end{solucion}
+% -----------------------------------------------------------------------------
+
+\begin{ejercicio}
+\textbf{Full1: 18,19}
+\begin{itemize}
+\item 	Calculad $(\vec n \cdot \vec \sigma)^2 \equiv \sigma^2$, done $\vec n$ es un
+vector unitario del espacio geometric y $\vec \sigma$ son los matrices de Pauli. 
+\item	Con el resultado de la primera parte comprobad la igualidad
+$e^{i\alpha(\vec n \cdot \vec \sigma} \equiv e^{i\alpha \sigma_{\vec n}} = \cos
+\alpha + i \sigma_{\vec n} \sin \alpha$.
+\end{itemize}
+\end{ejercicio}
+\begin{solucion}
+\begin{itemize}
+\item	
+Por ese ejercicio conocemos las realciones de los matrices de Pauli que estan
+dado por
+$$
+	{\sigma_i, \sigma_j} = \sigma_i \sigma_j - \sigma_j \sigma_i = 0 \quad
+\text{y} \sigma_i^2 = \mathds{1}	
+$$
+Ahora podemos empazor con la calculacion del primer producto escalar
+$$
+	\sigma_{\vec n}^2 = (\vec n \vec \sigma)^2 = \sum_{i, j=0}^3 n_i n_j
+\sigma_i \sigma_j = \sum_{i,j =1}^3 
+$$
+Considerando solo la suma de los matrices de Pauli nos da
+$$
+	\sigma_{i,j=1}^3 \sigma_i \sigma_j = \underbrace{\sigma_1 \sigma_1 + \sigma_2 \sigma_2
++ \sigma_3 \sigma_3}_{\mathds{1}} + \underbrace{\sigma_1 \sigma_2 +
+\sigma_2\sigma_1}_0 + \underbrace{\sigma_1 \sigma_3 + \sigma_3 \sigma_1}_0 +
+\underbrace{\sigma_2 \sigma_3 + \sigma_3 \sigma_2}_0
+$$
+Por lo tanto el resultado esta dado por
+$$
+	\vec \sigma_{\vec n}^2 = (\vec n \cdot \vec \sigma)^2 = \sum_{i,j = 1}^3 n_i
+n_j \mathds{1} = \mathds{1} 
+$$
+Que ademas significa los importantes relaciónes por la segunda parte
+$$
+	\sigma_{\vec n}^{2n} = \mathds{1} \quad \text{y} \qquad \sigma_{\vec
+n}^{2n+1} = \sigma_{n}
+$$
+
+\item Por la segunda parte desarollamos la función exponential y vemos que
+podemos dividirla en un parte par y en un parte impar. El exponential
+desarollado esta dado por
+\begin{align*}
+	e^{i\alpha \sigma_{\vec n}} &= 1 + i \alpha \sigma_{\vec n} - \frac{\alpha^2
+\sigma_{\vec n}^2}{2!} + \frac{i \alpha^3 \sigma_{\vec n}^3}{3!} -
+\frac{\alpha^4 \sigma_{\vec n}^4}{4!} + \cdots \\
+	&= 1 + i \alpha \sigma_{\vec n} - \frac{\alpha^2
+\mathds{1}}{2!} + \frac{i \alpha^3 \sigma_{\vec n}}{3!} -
+\frac{\alpha^4 \mathds{1}}{4!} + \cdots \\
+	&= \sum_{n=0}^\infty (-)^n \frac{\alpha^{2n+1} \sigma_{\vec
+n}^{2n+1}}{(2n+1)!} + \sum_{n=0}^\infty (-)^n \frac{\alpha^{2n} \sigma_{\vec
+n}^{2n}}{(2n)!} \\
+	&= \sin{\alpha} + i \sigma_{\vec n} \sin(\alpha) \qed
+\end{align*}
+donde hemos utliziado la relacion del primer ejercicio por $\sigma_{\vec n}$ par
+y impar y los desarollos del $\sin$ y $\cos$
+\begin{align*}
+	\sin(x) &= \sum_{n=0}^\infty \frac{(-)^n x^{2n+1}}{(2n +1)!} = x -
+\frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots \\
+	\cos(x) &= \sum_{n=0}^\infty \frac{(-)^n x^{2n}}{(2n)!} = 1 -
+\frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
+\end{align*}
+\end{itemize}
+\end{solucion}
